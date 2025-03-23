@@ -4,4 +4,4 @@ RENT is an earthquak tracker app that tracks recent earthquake and visualizes th
 
 Work in progress
 
-- [View Demo](https://www.github.com/octokatherine)
+[View Demo](https://recent-earthquake-nepal.vercel.app/)
