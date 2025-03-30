@@ -8,7 +8,7 @@ export function createPopupContent(
   popupContent.className = "earthquake-popup";
 
   popupContent.innerHTML = `
-    <div class="font-medium text-sm md:text-base mb-1">Magnitude sss${earthquake.magnitude.toFixed(
+    <div class="font-medium text-sm md:text-base mb-1">Magnitude${earthquake.magnitude.toFixed(
       1
     )}</div>
     <div class="text-xs md:text-sm mb-1">${earthquake.place}</div>
@@ -25,7 +25,7 @@ export function createPopupContent(
         ? '<div class="text-xs text-red-600 font-medium mt-1">Tsunami alert issued</div>'
         : ""
     }
-    <div class="text-xs text-primary mt-2 cursor-pointer view-details">View full details</div>
+    <div class="text-xs text-primary mt-2 cursor-pointer underline view-details">View full details</div>
   `;
 
   popupContent
