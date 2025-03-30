@@ -16,7 +16,7 @@ export default function MapComponent({
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<maplibregl.Map | null>(null);
   const markersRef = useRef<{ [key: string]: maplibregl.Marker }>({});
-  const apiKey = import.meta.env.VITE_MAPTILER_API_KEY;
+  const apiKey = import.meta.env.MAPTILER_API_KEY;
 
   // Initialize map
   useEffect(() => {
