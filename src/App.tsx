@@ -5,7 +5,7 @@ import Map from "./components/Map";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="container mx-auto px-2 md:px-4 py-2 md:py-4 flex flex-col min-h-screen">
       <Navbar />
       <main className="flex-grow">
         <Map />
