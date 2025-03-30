@@ -25,7 +25,7 @@ export function createPopupContent(
         ? '<div class="text-xs text-red-600 font-medium mt-1">Tsunami alert issued</div>'
         : ""
     }
-    <div class="text-xs text-primary mt-2 cursor-pointer view-details">View full details</div>
+    <div class="text-xs text-primary mt-2 cursor-pointer underline view-details">View full details</div>
   `;
 
   popupContent
