@@ -4,6 +4,8 @@
 
 A real-time earthquake monitoring application focused on Nepal, visualizing seismic activity with interactive maps and detailed information.
 
+- [View Live Demo](https://recent-earthquake-nepal.vercel.app/)
+
 ## Features
 
 - 🗺️ Interactive map with earthquake locations
