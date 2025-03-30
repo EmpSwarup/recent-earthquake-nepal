@@ -8,7 +8,7 @@ export function createPopupContent(
   popupContent.className = "earthquake-popup";
 
   popupContent.innerHTML = `
-    <div class="font-medium text-sm md:text-base mb-1">Magnitude${earthquake.magnitude.toFixed(
+    <div class="font-medium text-sm md:text-base mb-1">Magnitude ${earthquake.magnitude.toFixed(
       1
     )}</div>
     <div class="text-xs md:text-sm mb-1">${earthquake.place}</div>
